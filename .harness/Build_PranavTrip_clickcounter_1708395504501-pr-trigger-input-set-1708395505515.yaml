@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_PranavTrip_clickcounter_1708395504501-pr-trigger-input-set
+  identifier: Build_PranavTrip_clickcounter_1708395504501prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_PranavTrip_clickcounter_1708395504501
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
