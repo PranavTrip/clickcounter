@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_PranavTrip_clickcounter_1708395504501-push-trigger-input-set
+  identifier: Build_PranavTrip_clickcounter_1708395504501pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_PranavTrip_clickcounter_1708395504501
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
